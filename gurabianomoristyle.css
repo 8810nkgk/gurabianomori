@@ -1,0 +1,77 @@
+.form-text{
+    font-size: 16px;
+    padding: 10.130px;
+    width: 191px;
+}
+
+.５０音順左home{
+    position: relative;
+    top: 90px;
+    left: 90px;
+    font-size: 50px;
+
+}
+
+
+
+a{
+    text-decoration: none;/*全体の文字のデコをなしに*/
+    color: black;
+}
+
+.タイトル{
+    text-align: center;
+    font-size: 30px;
+}
+
+.５０音順左{
+    position: relative;
+    top: 140px;
+    left: 1080px;
+    font-size: 25px;
+    z-index: 100;/*z-indexは数字が大きくなるほど上に表示される
+    Webページは一枚の紙のようにも見えるが、実際にはいくつもの層（レイヤー）から構築されており、それぞれ重なっている状態。*/
+}
+.５０音順右{
+    position: relative;
+    top: -70px;
+    left: 1200px;
+    font-size: 25px;
+    z-index: 100;
+}
+
+
+.全体{
+    position: relative;
+    left: 100px;
+    top: -350px;
+}
+.anotherpage{
+    display: flex;
+}
+.part別タイトル{
+    display: flex;
+}
+.ni{
+    position: relative;
+    left: 100px;
+}
+.sann{
+    position: relative;
+    left: 370px;
+}
+.imgni{
+    position: relative;
+    left: -250px;
+    top: 50px;
+}
+.imgsann{
+    position: relative;
+    left: -200px;
+    top: 50px;
+}
+
+
+
+
+
